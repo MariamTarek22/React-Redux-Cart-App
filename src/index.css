@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  box-sizing: border-box;
+  color-scheme: light dark;
+  color: black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  max-width: 1539px;
+  padding: 1.5rem 1rem;
+}
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+body {
+  padding-top: 60px;
+}
+
+button {
+  border: 2px solid transparent;
+  padding: 0.5em 1rem;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  border-color: #1a1a1a;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.5s ease-in-out;
+  color: #000;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.letterSpacing {
+  letter-spacing: 2px;
+}
+.myRow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.h-100 {
+  height: 100vh;
+}
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display:grid;
+  -webkit-mask: conic-gradient(from 15deg,#0000,#000);
+  animation: l26 1s infinite steps(12);
+}
+.loader,
+.loader:before,
+.loader:after{
+  background:
+    radial-gradient(closest-side at 50% 12.5%,
+     #000 96%,#0000) 50% 0/20% 80% repeat-y,
+    radial-gradient(closest-side at 12.5% 50%,
+     #000 96%,#0000) 0 50%/80% 20% repeat-x;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  grid-area: 1/1;
+  transform: rotate(30deg);
+}
+.loader:after {
+  transform: rotate(60deg);
+}
+
+@keyframes l26 {
+  100% {transform:rotate(1turn)}
+}
+
