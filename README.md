@@ -51,7 +51,7 @@
 
 ## Deployment
 
-- **Live Demo:** [https://66e0cfb9c94e7b3175cab786--reactt-redux-cart-app.netlify.app/]
+- **Live Demo:** [https://66e0c440cfcfa72e316dda79--react-redux-cart-appp.netlify.app/]
 
 ## Usage
 
