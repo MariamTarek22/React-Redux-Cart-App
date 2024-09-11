@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center; /* Centers content horizontally */
   flex: 1 1 100%; /* Flex item takes full width by default */
-  padding: 1rem 0.7rem;
+  padding: 1.5rem 0.7rem;
 }
 
 .product {
@@ -34,6 +34,7 @@
   width: 200px;
   height: 250px;
   object-fit: contain;
+    padding: 5px;
 }
 
 .price {
@@ -44,6 +45,15 @@
   color: white;
   padding: 5px 15px;
   font-size: 1.5rem;
+}
+.rating {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  padding: 5px 15px;
+}
+.rating i {
+  color: rgb(229, 229, 42);
 }
 
 .productContent {
