@@ -40,6 +40,10 @@ export default function Products() {
                       alt={product.title.split(" ").slice(0, 3).join(" ")}
                     />
                     <span className={style.price}>{product.price} EGP</span>
+                    <span className={style.rating}>  <div>
+                     
+                      <i className="fa-solid fa-star"> </i>  {product.rating.rate}
+                    </div></span>
                   </div>
                   <div className={style.productContent}>
                     <div className={style.content}>
@@ -54,6 +58,7 @@ export default function Products() {
                         ADD <i className="fa-solid fa-plus"></i>
                       </button>
                     </div>
+                  
                   </div>
                 </div>
               </div>
