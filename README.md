@@ -1,4 +1,4 @@
-# Responsive React Redux Cart App
+# Responsive React Redux Cart App 
  This project demonstrates a responsive shopping cart using React.js with Redux. It features dynamic cart management and a clean, responsive design.
  
 ## Features
